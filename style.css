@@ -11,9 +11,95 @@ html { box-sizing: border-box; }
 	portfolio  #e74c3c
 	facebook   #3b5998
 	twitter    #1da1f2
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 */
 
 
 body {
 	background-color: #bdc3c7;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-top: 0px;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.profil{
+	background-color: #31363b;
+	margin: 100px auto 0 auto;
+	width: 300px;
+	color: lightgray;
+	position: relative;
+	line-height: 1.5;
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.foto{
+	width: 300px;
+}
+
+.logo{
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+	right: 30px;
+	top: 175px;
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+a{
+	text-decoration: none;
+	color: lightgray;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px;
+	font-weight: 700;
+}
+
+.obsah{
+	padding: 20px 20px 10px 20px;
+}
+
+.li-portfolio{
+	border-top: 1px solid #3f464d;
+	border-bottom: 1px solid #3f464d;
+	width: 100%;
+}
+
+.li-facebook, .li-twitter{
+	width: 50%;
+}
+
+.a-portfolio{
+
+	width: 100%;
+}
+
+
+.li-twitter{
+	border-left: 1px solid #3f464d;
+	width: 150px;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+
+}
+
+.a-twitter:hover, .a-portfolio:hover, .a-facebook:hover{
+	background-color: #3b5998;
+	color: white;
+}
+
+
+ul{
+	padding: 0;
 }
