@@ -61,7 +61,6 @@ a{
 	display: inline-block;
 	padding: 10px 0;
 	font-weight: 700;
-	width: 50%;
 }
 
 .obsah{
@@ -78,11 +77,6 @@ a{
 	width: 50%;
 }
 
-.a-portfolio{
-	width: 100%;
-}
-
-
 
 .li-twitter{
 	border-left: 1px solid #3f464d;
@@ -92,20 +86,19 @@ a{
 li {
 	display: inline-block;
 	text-align: center;
-
 }
 
-li .a-twitter:hover{
+.li-twitter:hover{
 	background-color: #1da1f2;
 	color: white;
 }
 
-li .a-portfolio:hover{
+.li-portfolio:hover{
 	background-color: #e74c3c;
 	color: white;
 }
 
-li .a-facebook:hover{
+.li-facebook:hover{
 	background-color: #3b5998;
 	color: white;
 }
